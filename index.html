@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3D Portfolio website html css dan javascript | affi</title>
+        <link rel="stylesheet" href="/portofolio-affi/style.css">
+        <link rel="manifest" href="/portofolio-affi/manifest.json">
+        <link rel="ServiceWorker" href="/portofolio-affi/service-worker.js">
+        <link rel="image icon" href="/portofolio-affi/images/icon.png">
+        <!--box icon-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <div class="cover cover-left"></div>
+            <div class="cover cover-right"></div>
+
+            <div class="book">
+                <!--profile page-->
+                <div class="book-page page-left">
+                    <div class="profile-page">
+                        <img src="/portofolio-affi/images/foto.jpg" alt="">
+                        <h1>Nurul Khafidoh</h1>
+                        <h3>Web Developer</h3>
+
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/affi.ii.5" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://x.com/affinrl" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/in/nurul-khafidoh-5a52922a2" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://www.instagram.com/affi.nrl?igsh=anZjZDFtM2RtNWtk" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>   
+                        
+                        <div class="contact-info">
+                            <span><i class='bx bxs-envelope'></i> nurulkhafidoh100@gmail.com</span>
+                            <span><i class='bx bxs-phone'></i> +62 856-4120-5130</span>
+                        </div>
+                        
+                        <p>Hi, saya Nurul Khafidoh, mahasiswa S1 Sistem Informasi di STMIK YMI Tegal dengan fokus pada pengembangan web. Saya bersemangat untuk terus belajar dan mengembangkan keterampilan sebagai Web Developer.</p>
+
+                        <div class="btn-box">
+                            <a href="/portofolio-affi/assets/CV_Nurul_Khafidoh.pdf" class="btn" download="CV_Nurul_Khafidoh">Download CV</a>
+                            <a href="#" class="btn contact-me">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--page 1 & 2-->
+                <div class="book-page page-right turn" id="turn-1">
+                    <!--page 1(work experience)-->
+                    <div class="page-front">
+                        <h1 class="title">Projects & Experience</h1>
+
+                        <div class="workeduc-box">
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>2024</span>
+                                <h3>Proyek Website 3D Portofolio Pribadi</h3>
+                                <p>Membangun dan merancang website portofolio pribadi menggunakan PWA dan HTML, CSS, serta JavaScript untuk menampilkan keterampilan dan karya saya sebagai Web Developer.</p>
+                            </div>
+
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>2024</span>
+                                <h3>Proyek Website Resep Makanan</h3>
+                                <p>Mengembangkan website resep makanan sebagai PWA dengan desain responsif dan fitur offline yang memungkinkan pengguna mengakses konten tanpa koneksi internet.</p>
+                            </div>
+
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>2022</span>
+                                <h3>Studi Independen - Sistem Informasi</h3>
+                                <p>Berpartisipasi dalam studi independen yang membahas pengembangan sistem informasi dan keterampilan dasar pemrograman web di STMIK YMI Tegal.</p>
+                            </div>
+                        </div>
+
+                        <span class="number-page">1</span>
+
+                        <!--next-button-->
+                        <span class="nextprev-btn" data-page="turn-1">
+                            <i class='bx bx-chevron-right'></i>
+                        </span>
+                    </div>
+
+                    <!--page 2(education)-->
+                    <div class="page-back">
+                        <h1 class="title">Education</h1>
+
+                        <div class="workeduc-box">
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>2022 - Present</span>
+                                <h3>STMIK YMI Tegal - Sistem Informasi</h3>
+                                <p>Sedang menempuh pendidikan S1 dalam bidang Sistem Informasi dengan fokus pada pengembangan web, analisis data, dan pemrograman aplikasi.</p>
+                            </div>
+
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>2019 - 2022</span>
+                                <h3>SMK Negeri 01 Dukuhturi - TKJ</h3>
+                                <p>Memperoleh pengetahuan mendalam dalam jaringan komputer, pemeliharaan perangkat keras, serta pengembangan keterampilan teknis untuk persiapan karier di bidang IT.</p>
+                            </div>
+
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>2016 - 2019</span>
+                                <h3>SMP Negeri 05 Adiwerna</h3>
+                                <p>Menyelesaikan pendidikan SMP dengan dasar-dasar ilmu yang mengarahkan pada minat di bidang teknologi dan informasi.</p>
+                            </div>
+                        </div>
+
+                        <span class="number-page">2</span>
+
+                        <!--prev-button-->
+                        <span class="nextprev-btn back" data-page="turn-1">
+                            <i class='bx bx-chevron-left'></i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <!--page 3 & 4-->
+                <div class="book-page page-right turn" id="turn-2">
+                    <!--page 3 (my services)-->
+                    <div class="page-front">
+                        <h1 class="title">My Services</h1>
+
+                        <div class="services-box">
+                            <div class="services-content">
+                                <i class='bx bx-code-alt'></i>
+                                <h3>Web Development</h3>
+                                <p>Membangun website sesuai kebutuhan bisnis Anda.</p>
+                                <a href="#" class="btn read-more" onclick="openModal('webDevelopmentModal')">Read More</a>
+                            </div>
+                            
+                            <!-- Modal -->
+                            <div id="webDevelopmentModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close" onclick="closeModal('webDevelopmentModal')">&times;</span>
+                                    <h1>Web Development</h1>
+                                    <p>Saya menawarkan layanan pengembangan website yang mencakup desain responsif, pengembangan front-end dan back-end, serta optimasi performa. Setiap proyek disesuaikan dengan kebutuhan klien untuk mencapai hasil yang optimal.</p>
+                                    <h2>Teknologi yang Digunakan:</h2>
+                                    <ul>
+                                        <li>HTML, CSS, JavaScript</li>
+                                        <li>Framework: React, Vue, atau Angular</li>
+                                        <li>Backend: Node.js, PHP, atau Python</li>
+                                    </ul>
+                                    <button class="btn" onclick="closeModal('webDevelopmentModal')">Close</button>
+                                </div>
+                            </div>
+                            
+
+                            <div class="services-content">
+                                <i class='bx bxs-paint'></i>
+                                <h3>Creative Design</h3>
+                                <p>Mendesain tampilan yang menarik dan responsif.</p>
+                                <a href="#" class="btn read-more" onclick="openModal('creativeDesignModal')">Read More</a>
+                            </div>
+
+                            <div id="creativeDesignModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close" onclick="closeModal('creativeDesignModal')">&times;</span>
+                                    <h1>Creative Design</h1>
+                                    <p>Saya menawarkan layanan desain kreatif yang meliputi pembuatan logo, branding, desain media sosial, dan kebutuhan visual lainnya. Desain dibuat secara profesional untuk meningkatkan daya tarik visual dan identitas merek Anda.</p>
+                                    <h2>Tools yang Digunakan:</h2>
+                                    <ul>
+                                        <li>Adobe Photoshop</li>
+                                        <li>Adobe Illustrator</li>
+                                        <li>Figma, Sketch</li>
+                                    </ul>
+                                    <button class="btn" onclick="closeModal('creativeDesignModal')">Close</button>
+                                </div>
+                            </div>
+
+                            <div class="services-content">
+                                <i class='bx bx-bar-chart-alt'></i>
+                                <h3>Digital Marketing</h3>
+                                <p>Mengembangkan strategi pemasaran digital yang efektif.</p>
+                                <a href="#" class="btn read-more" onclick="openModal('digitalMarketingModal')">Read More</a>
+                            </div>
+
+                            <div id="digitalMarketingModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close" onclick="closeModal('digitalMarketingModal')">&times;</span>
+                                    <h1>Digital Marketing</h1>
+                                    <p>Saya menawarkan layanan pemasaran digital yang mencakup perencanaan dan implementasi strategi untuk meningkatkan visibilitas online dan keterlibatan pelanggan. Layanan ini meliputi SEO, pemasaran media sosial, dan kampanye email yang efektif.</p>
+                                    <h2>Layanan yang Disediakan:</h2>
+                                    <ul>
+                                        <li>SEO (Search Engine Optimization)</li>
+                                        <li>Pemasaran Media Sosial</li>
+                                        <li>Email Marketing dan Otomasi</li>
+                                        <li>Content Marketing</li>
+                                    </ul>
+                                    <button class="btn" onclick="closeModal('digitalMarketingModal')">Close</button>
+                                </div>
+                            </div>
+                            
+                            <!-- SEO Service -->
+                            <div class="services-content">
+                                <i class='bx bx-search'></i>
+                                <h3>SEO</h3>
+                                <p>Meningkatkan peringkat situs website di hasil pencarian.</p>
+                                <a href="#" class="btn read-more" onclick="openModal('seoModal')">Read More</a>
+                            </div>
+
+                            <!-- Modal SEO -->
+                            <div id="seoModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close" onclick="closeModal('seoModal')">&times;</span>
+                                    <h1>SEO</h1>
+                                    <p>Saya menyediakan layanan SEO yang bertujuan untuk meningkatkan visibilitas website Anda di hasil pencarian. Layanan ini mencakup analisis kata kunci, optimasi on-page dan off-page, serta strategi konten yang disesuaikan untuk meningkatkan peringkat dan lalu lintas organik.</p>
+                                    <h2>Strategi yang Digunakan:</h2>
+                                    <ul>
+                                        <li>Riset Kata Kunci</li>
+                                        <li>Optimasi Konten</li>
+                                        <li>Link Building</li>
+                                        <li>Analisis Performa dan Pelaporan</li>
+                                    </ul>
+                                    <button class="btn" onclick="closeModal('seoModal')">Close</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <span class="number-page">3</span>
+
+                        <!--next-button-->
+                        <span class="nextprev-btn" data-page="turn-2">
+                            <i class='bx bx-chevron-right'></i>
+                        </span>
+                    </div>
+
+                    <!--page 4 (my skills)-->
+                    <div class="page-back">
+                        <h1 class="title">My Skills</h1>
+
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <h3>Front-End</h3>
+                                <div class="content">
+                                    <span><i class='bx bxl-html5'></i>HTML</span>
+                                    <span><i class='bx bxl-css3'></i>CSS</span>
+                                    <span><i class='bx bxl-java'></i>Java</span>
+                                    <span><i class='bx bxl-bootstrap'></i>Bootstrap</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-content">
+                                <h3>Back-End</h3>
+                                <div class="content">
+                                    <span><i class='bx bxl-python'></i>Python</span>
+                                    <span><i class='bx bxl-php'></i>PHP</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-content">
+                                <h3>Microsoft Office</h3>
+                                <div class="content">
+                                    <span><i class='bx bxs-file-doc'></i>Word</span>
+                                    <span><i class='bx bxs-objects-horizontal-right'></i>Excel</span>
+                                    <span><i class='bx bxs-parking'></i>PPT</span>
+                                    <span><i class='bx bxl-adobe'></i>Access</span>
+                                </div>
+                            </div>
+                            
+
+
+                        </div>
+
+                        <span class="number-page">4</span>
+
+                        <!--prev-button-->
+                        <span class="nextprev-btn back" data-page="turn-2">
+                            <i class='bx bx-chevron-left'></i>
+                        </span>
+                    </div>
+                </div>
+            
+                <!--page 5 & 6-->
+                <div class="book-page page-right turn" id="turn-3">
+                    <!--page 5 (lates project or my portofolio)-->
+                    <div class="page-front">
+                        <h1 class="title">Latest Project</h1>
+
+                        <div class="portofolio-box">
+                            <div class="img-box">
+                                <img src="/portofolio-affi/images/portofolio.jpg" alt="">
+                            </div>
+                            
+                            <div class="info-box">
+                                <div class="info-title">
+                                    <h3>Mom's Cooking</h3>
+                                    <a href="https://nurulkhafidoh-aliviafatahyumna.store/resep/" target="_blank">Live Preview<i class='bx bx-link-external'></i></a>
+                                </div>
+                                <p>Tech Used: PWA, HTML, CSS, JavaScript</p>
+                                <p>Mom's Cooking adalah aplikasi web progresif untuk menampilkan dan menyimpan resep makanan. Proyek ini mencakup fitur seperti penyimpanan offline dan pencarian resep yang mudah digunakan.</p>
+                            </div>
+                        
+                            <div class="btn-box">
+                                <a href="https://github.com/nurulkhafidoh22/WebResepMakanan/blob/main/Web-food.zip" target="_blank" class="btn">Source Code</a>
+                                <a href="#" onclick="openModal('projectsModal')" class="btn">More Projects</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal untuk More Projects -->
+                        <div id="projectsModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('projectsModal')">&times;</span>
+                            <h2>More Projects</h2>
+                            <ul>
+                                <li>Portfolio Website - Website portofolio untuk menampilkan berbagai proyek.</li>
+                                <li>CRUD Application - Aplikasi dengan fitur CRUD (Create, Read, Update, Delete).</li>
+                                <li>Rainfall Analysis - Aplikasi analisis data curah hujan.</li>
+                                <li>Web Traffic Analysis - Aplikasi analisis data traffic website.</li>
+                            </ul>
+                            <button onclick="closeModal('projectsModal')" class="btn">Close</button>
+                        </div>
+                    </div>
+
+                        <span class="number-page">5</span>
+
+                        <!--next-button-->
+                        <span class="nextprev-btn" data-page="turn-3">
+                            <i class='bx bx-chevron-right'></i>
+                        </span>
+                    </div>
+
+
+                    <!--page 6 (contact me)-->
+                    <div class="page-back">
+                        <h1 class="title">Contact Me!</h1>
+
+                        <div class="contact-box">
+                            <form action="https://formspree.io/f/manyealo" method="POST" onsubmit="return sendMessage()">
+                                <input type="text" class="field" placeholder="Full Name" name="name" required>
+                                <input type="email" class="field" placeholder="Email Address" name="email" required>
+                                <textarea name="message" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                                <input type="submit" class="btn" value="Send Message">
+                            </form>
+                        </div>
+
+
+                        <span class="number-page">6</span>
+
+                        <!--prev-button-->
+                        <span class="nextprev-btn back" data-page="turn-3">
+                            <i class='bx bx-chevron-left'></i>
+                        </span>
+
+                        <a href="#" class="back-profile">
+                            <p>Portofolio</p>
+                            <i class='bx bxs-user'></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="/portofolio-affi/script.js"></script>
+        
+    </body>
+</html>
